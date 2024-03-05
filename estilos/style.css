@@ -29,7 +29,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden; /*gera a borda arredondada para a imagem*/
 
     background-color: rgba(255, 255, 255, 0.4);
@@ -38,6 +37,7 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
 
+    transform: translate(-50%, -50%);
     transition: width 0.2s, height 0.3s;
     transition-timing-function: ease;
 }
@@ -80,9 +80,9 @@ div.campo > input {
     margin: 5px;
     width: calc(100% - 55px);
     height: 100%;
-    transform: translateY(-10px);
     border-radius: 7px;
     padding: 4px;
+    transform: translateY(-10px);
 
 }
 
